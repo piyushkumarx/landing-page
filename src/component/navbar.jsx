@@ -21,7 +21,7 @@ function Navbar() {
     <>
       <div className="navbar">
         <div id="headerlogo">
-          <img src="/logo.svg" alt="logo" />
+          <img src="./logo.svg" alt="logo" />
         </div>
 
         <div id="optionBox">
