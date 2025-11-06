@@ -1,0 +1,31 @@
+.featureBox{
+
+    width: 90%;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+
+.boxes img{
+    height: 4.8rem;
+    margin-bottom: 1.7rem;
+}
+
+
+.boxes h4{
+    font-size: 1.8rem;
+    letter-spacing: -0.5px;
+    margin-bottom: 0.7rem;
+}
+
+.boxes p{
+    font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.95rem;
+  line-height: 1.5rem;
+  color: hsl(273, 4%, 51%);
+
+}

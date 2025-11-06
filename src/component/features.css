@@ -1,0 +1,128 @@
+
+ h2{
+    font-size: 4rem;
+     font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 4.3rem;
+  font-size: 4.3rem;
+
+}
+
+
+#hrFeatures{
+     width: 9.5rem;
+  border: none;
+  border-top: 2px solid hsla(276, 4%, 51%, 0.557); 
+margin-bottom: 2.4rem;
+   
+}
+
+
+.featureMainBox{
+
+    margin-top: 19rem;
+    margin-left: 10rem ;
+
+}
+
+
+
+@media(max-width:1361px){
+
+    .featureMainBox{
+       margin-left: 5rem;
+       margin-top: 18rem;
+    }
+
+}
+
+
+@media(max-width:1300px){
+     .featureMainBox{
+        margin-top: 16rem;
+     }
+}
+
+@media(max-width:1181px){
+
+     .featureMainBox{
+       margin-left: 3.5rem;
+       margin-top: 18rem;
+    }
+
+}
+
+
+@media(max-width:1000px){
+     .featureMainBox{
+        margin-top: 14rem;
+     }
+}
+
+@media(max-width:901px){
+
+     .featureMainBox{
+       margin-left: 2rem;
+       margin-top: 14rem;
+    }
+
+}
+
+@media(max-width:805px){
+    .featureBox{
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        width: 100%;
+        
+    }
+
+    .featureMainBox{
+       margin-left: 0rem;
+       margin-top: 7rem;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+
+    .boxes{
+        text-align: center;
+    }
+
+    #hrFeatures{
+     width: 9.5rem;
+  border: none;
+  border-top: 2px solid hsla(276, 4%, 51%, 0.557); 
+  margin: 0 auto 2.4rem; 
+   
+}
+
+.boxes p{
+    padding: 0 40px;
+}
+
+   
+}
+
+
+@media(max-width:500px){
+    h2{
+        font-size: 3.5rem;
+    }
+    .boxes p{
+    padding: 0 20px;
+}
+}
+
+
+@media(max-width:400px){
+    h2{
+        font-size: 3rem;
+    }
+}
+
+
+
+

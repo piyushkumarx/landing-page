@@ -1,0 +1,131 @@
+.navbar {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 0.9rem;
+    font-style: normal;
+    text-transform: uppercase;
+    color: hsl(273, 4%, 51%);
+    height: 4.5rem;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    letter-spacing: 1px;
+
+}
+
+
+.unique{
+     margin-bottom: 2.9px;
+}
+.hrNav{
+      width: 1.2rem;
+     
+      border: none;
+      border-top: 2px solid black;
+ 
+  
+   
+}
+
+ #optionBox{
+        display: flex;
+        margin-right: 1.8rem;
+    }
+
+#closeBox{
+    display: none;
+}
+
+#optionBox{
+     display: none;
+   
+}
+.choose{
+    margin-right: 1.8rem;
+}
+
+#view{
+    color: rgba(0, 0, 0, 0.851);
+    padding: 8px 20px;
+    border: 2px solid rgba(0, 0, 0, 0.925);
+    margin-right: 9.5rem;
+}
+
+#headerlogo{
+   
+    display: flex;
+    position: relative;
+    
+    left: 11.5rem;
+}
+
+
+.choose:hover{
+    cursor: pointer;
+    color: hsl(300, 9%, 2%);
+}
+
+#view:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.825);
+    color: rgba(255, 255, 255, 0.867);
+}
+
+#closeBox:hover{
+    cursor: pointer;
+}
+
+#hamburger:hover{
+    cursor: pointer;
+}
+
+
+@media(max-width:951px){
+
+    #view{
+        margin-right: 2rem;    }
+
+        #headerlogo{
+            left: 2rem;
+        }
+
+
+    
+}
+
+
+@media(max-width:700px){
+
+    #option span{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (max-width:640px) {
+
+    #option{
+        display: none;
+    }
+
+    #closeBox{
+    
+     margin-right: 1.8rem;
+}
+
+    #optionBox{
+        display: flex;
+        margin-right: 1.8rem;
+    }
+
+
+    #headerlogo{
+        left: 1.7rem;
+    }
+
+    
+}

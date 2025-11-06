@@ -1,0 +1,512 @@
+.home {
+    background-color: hsl(256, 26%, 20%);
+    width: 100vw;
+    
+    background-repeat: no-repeat;
+    background-position: right -79px;
+    height: 37rem;
+    justify-content: center;
+    position: relative;
+    
+
+
+}
+
+#left2 {
+    display: none;
+}
+
+#mainPhoto2 {
+    display: none;
+}
+
+.home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("./bg-pattern-intro-right-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: right -79px;
+    z-index: 2;
+    pointer-events: none;
+    
+}
+
+#left {
+    position: absolute;
+    top: 26.2rem;
+}
+
+#mainPhoto {
+    position: relative;
+    top: -12.7rem;
+    left: 50.8rem;
+    z-index: 1;
+    
+}
+
+.mainText {
+    position: relative;
+    width: 35.5%;
+    
+    top: 10rem;
+    left: 11rem;
+
+}
+
+h1 {
+    font-size: 4.8rem;
+    color: white;
+    font-weight: 600;
+    letter-spacing: -2px;
+    line-height: 4rem;
+}
+
+#homep {
+    font-size: 1rem;
+    color: hsl(0, 0%, 90%);
+    margin-top: 2rem;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+button {
+    background-color: transparent;
+    color: hsl(0, 0%, 98%);
+    padding: 9px 25px;
+    border: 2px solid white;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1.1px;
+}
+
+
+button:hover{
+    background-color: hsl(0, 0%, 98%);
+    color: black;
+    cursor: pointer;
+}
+
+#right2 {
+    display: none;
+}
+
+#hrHome {
+    width: 10rem;
+    border: none;
+    border-top: 2px solid #ffffff9b;
+    /* सफेद लाइन */
+    position: relative;
+    top: 6rem;
+    right: -11rem;
+}
+
+#hamburgerOption{
+     position: relative;
+    font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 5.5vw;
+  color: rgba(255, 255, 255, 0.886);
+  height: 100vh;
+  font-style: normal;
+  overflow: hidden;
+    background-color: hsl(270, 9%, 17%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    letter-spacing: 1.8px;
+}
+
+ #hamburgerOption{
+        display: none;
+    }
+
+#hamburgerOne{
+    margin-top: 3rem;
+}
+
+#hamburgerOption span{
+    margin-bottom: 2rem;
+}
+
+#hamburgerBorder{
+    border: 2px solid white;
+    padding: 0.75rem 0;
+    margin: 0 1.5rem;
+}
+
+#hamburgerIMG{
+     position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  display: block;
+}
+
+
+@media(max-width:1400px) {
+
+    #mainPhoto {
+        width: 33rem;
+        left: 46rem;
+
+    }
+
+    .home::before {
+
+        background-size: 26rem;
+
+
+    }
+
+
+}
+
+@media(max-width:1300px) {
+
+    #mainPhoto {
+        width: 30rem;
+        top: -11.8rem;
+        left: 46rem;
+
+    }
+
+    .home::before {
+
+        background-size: 24rem;
+
+
+    }
+
+
+}
+
+@media(max-width:1360px) {
+
+
+
+    .mainText {
+        left: 5rem;
+        width: 34rem;
+    }
+
+    #hrHome {
+        right: -5.1rem;
+    }
+
+
+}
+
+
+
+@media(max-width:1260px) {
+
+
+    #mainPhoto {
+
+
+        width: 26rem;
+    }
+
+    .home::before {
+
+        background-size: 22rem;
+
+
+    }
+
+    #left {
+        position: absolute;
+        top: 23rem;
+        left: -2.5rem;
+    }
+
+    .home {
+        height: 33rem;
+    }
+
+
+
+}
+
+
+
+
+@media(max-width:1180px) {
+
+    #mainPhoto {
+        width: 25rem;
+        left: 42rem;
+    }
+
+    #hrHome {
+
+        top: 6.5rem;
+        right: -3.5rem;
+    }
+
+
+
+    .mainText {
+        left: 3.5rem;
+        width: 31rem;
+    }
+
+
+    h1 {
+        width: 29.5rem;
+        font-size: 4.2rem;
+    }
+
+    #homep {
+        font-size: 0.96rem;
+    }
+
+}
+
+
+@media(max-width:1100px) {
+
+    #mainPhoto {
+        width: 25rem;
+        left: 36rem;
+    }
+
+    #hrHome {
+
+        top: 7rem;
+
+    }
+
+
+
+}
+
+@media (max-width:1000px) {
+
+    h1 {
+        width: 25rem;
+        font-size: 3.7rem;
+    }
+
+    #homep {
+        font-size: 0.9rem;
+        margin: 1.8rem 0;
+        padding-right: 5rem;
+    }
+
+    #mainPhoto {
+        width: 22rem;
+        left: 33rem;
+    }
+
+    #hrHome {
+
+        top: 6rem;
+
+    }
+
+
+    .home {
+        height: 30rem;
+    }
+
+    .mainText {
+        top: 8rem;
+    }
+
+    .home::before {
+
+        background-size: 20rem;
+
+
+    }
+
+
+}
+
+@media (max-width:900px) {
+
+    .mainText {
+        left: 2rem;
+    }
+
+    #mainPhoto {
+        left: 27.4rem;
+    }
+
+    .home::before {
+
+        background-size: 19rem;
+
+
+    }
+
+    #hrHome {
+
+        top: 6rem;
+        right: -2.3rem;
+    }
+
+
+
+    h1 {
+        width: 21rem;
+        font-size: 3.3rem;
+    }
+
+    #homep {
+        font-size: 0.9rem;
+        margin: 1.2rem 0;
+        padding-right: 8rem;
+    }
+}
+
+@media (max-width:805px) {
+
+    #hrHome {
+        display: none;
+    }
+
+    #mainPhoto {
+
+        display: none;
+    }
+
+   
+
+    #mainPhoto2 {
+        display: unset;
+        width: 100%;
+    }
+
+    .mainText {
+        position: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #homep {
+        padding: 0;
+        position: unset;
+
+    }
+
+    .home {
+        display: flex;
+        position: relative;
+        justify-content: unset;
+        height: 33rem;
+        top: -0.3rem;
+    }
+
+    #left {
+        top: 19rem;
+    }
+
+    .home::before {
+        display: ;
+    }
+
+
+    #hrHome {
+        width: 0;
+    }
+
+
+    h1 {
+        font-size: 5rem;
+        width: 32rem;
+        text-align: center;
+
+    }
+
+    #homep {
+        margin: 2rem 0;
+        padding: 0 8rem;
+        text-align: center;
+    }
+
+
+
+}
+
+
+@media(max-width:600px) {
+
+    #left {
+        display: none;
+    }
+
+    .home::before {
+        display: none;
+    }
+
+    #right2 {
+        display: unset;
+        position: absolute;
+        right: 0px;
+        bottom: -11rem;
+    }
+
+    #left2 {
+        position: absolute;
+        display: unset;
+        height: 12rem;
+    }
+
+
+    h1 {
+        font-size: 4rem;
+        width: 25rem;
+        line-height: 3.5rem;
+    }
+
+    #homep {
+        padding: 0 1.2rem;
+    }
+
+
+}
+
+
+@media(max-width:430px) {
+
+    h1 {
+        font-size: 3.2rem;
+        width: 20rem;
+        line-height: 2.8rem;
+    }
+
+
+}
+
+
+@media(max-width:320px) {
+
+    h1 {
+        font-size: 2.5rem;
+        width: 15rem;
+        line-height: 2.4rem;
+    }
+
+
+}
