@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://piyushkumarx.github.io/landing-page",
+  "homepage": "https://piyushkumarx.github.io/Landing-page",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
